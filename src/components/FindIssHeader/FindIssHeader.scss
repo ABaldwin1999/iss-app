@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    &__text{
+        font-family: 'Brygada 1918', serif;
+        color: darkblue;
+    }
+    &__blank{
+        padding: 0.25rem;
+    }
+    &__text:hover{
+        color: chartreuse;
+    }
+}
