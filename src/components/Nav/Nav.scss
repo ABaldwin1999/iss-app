@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+.nav {
+  height:auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Brygada 1918', serif;
+  background-color:white;
+  border: 0.125rem solid #e6e6e6;
+  cursor: pointer;
+  &__about,
+  &__iss,
+  &__stars {
+    margin-left: 0.5rem;
+    padding: 0.625rem;
+    opacity: 40%;
+    color: white;
+    background-color: darkblue;
+    transform: skew(-20deg);
+    text-decoration: none;
+  }
+  &__about:hover,
+  &__iss:hover,
+  &__stars:hover {
+    transform: scale(1.10)  skew(-20deg);
+    background-color: rgb(4, 4, 96);
+    margin-left: 0.5rem;
+    padding: 0.625rem;
+    color: white;
+    opacity: 100%;
+    text-decoration: none;
+  }
+
+  &__about--clicked,
+  &__iss--clicked,
+  &__stars--clicked {
+    background-color: darkblue;
+    transform: skew(-20deg);
+    margin-left: 0.5rem;
+    padding: 0.625rem;
+    color: white;
+    opacity: 100%;
+    text-decoration: none;
+  }
+  &__text{
+    transform: skew(20deg);
+  }
+}
